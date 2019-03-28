@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th = "http://www.thymeleaf.org">
+<head>
+<title>PluralSight Training Config Client</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</link>
+</head>
+<body>
+<div class = "row">
+<div class = "col-md-2"></div>
+<div class = "col-md-8">
+<h1>PluralSight Training :Spring CLoud Config Client</h1>
+<p th:text="'Your Rate is: '+${rateamount}+',number of lanes is: '+${lanes}+',toll start time is :'+${tollstart}+',connection string: '+${connstring}"></p>
+</div>
+<div class= "col-md-2"></div></div></body>
+</html>
